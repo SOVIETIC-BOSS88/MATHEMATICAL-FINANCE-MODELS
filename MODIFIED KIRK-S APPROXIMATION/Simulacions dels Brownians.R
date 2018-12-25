@@ -1651,10 +1651,6 @@ col='green', xlab='', ylab='', zlab='', ticktype = 'simple', zlim = c(-0.072, 14
 dev.print(pdf, 'error_Kirk_K_rho_T_0.5_and_error_Kirk_modif_K_rho_T_0.5.pdf');
 
 
-
-
-
-
 ##Some useful tools:
 ##Convert data field into a matrix: matrixS1 = data.matrix(S1, rownames.force = NA)
 ##Join two matrixes: matrixS1andS2 = cbind(S1, S2)
